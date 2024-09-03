@@ -3,6 +3,10 @@ from database import create_table, create_connection, save_data_profile
 
 
 def main():
+    """
+    Основная функция для выполнения поиска и сохранения данных
+    """
+
     conn = create_connection('insta.db')
     create_table(conn)
 
